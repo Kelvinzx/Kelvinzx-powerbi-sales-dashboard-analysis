@@ -1,4 +1,7 @@
-# 📊 Power BI Sales Dashboard Analysis
+<h1 align="center">📊 Power BI Sales Dashboard Analysis</h1>
+
+![Cover photo](https://github.com/user-attachments/assets/0b6c49b9-f760-4370-bc7e-89fcf6359af2)
+
 
 ## 📝 Project Overview
 
@@ -12,7 +15,6 @@ This project simulates a realistic retail business reporting scenario for a gadg
 
 ## 📚 Table of Contents
 
-- [📝 Project Overview](#-project-overview)
 - [🎯 Project Objectives](#-project-objectives)
 - [🗂️ Dataset Description](#️-dataset-description)
 - [🧹 Data Cleaning Process](#-data-cleaning-process)
@@ -28,7 +30,7 @@ This project simulates a realistic retail business reporting scenario for a gadg
 - [🚀 How to Use This Project](#-how-to-use-this-project)
 - [📄 Presentation Slides](#-presentation-slides)
 - [⚠️ Disclaimer](#️-disclaimer)
-- [🙌 Author](#-author)
+- [🔗 Connect With Me](#-connect-with-me)
 
 ---
 
@@ -170,73 +172,89 @@ Additional performance metrics include:
 ---
 
 ## 🧮 DAX Measures Used
-
-Below are some of the DAX measures used in this project:
-
-```DAX
-Total Revenue = SUM(Sales[Revenue])
-Total Orders = COUNT(Sales[Order ID])
-Quantity Sold = SUM(Sales[Quantity])
-Avg Revenue = DIVIDE([Total Revenue], [Total Orders], 0)
-Month Name = FORMAT(Sales[Order Date], "MMMM")
-Month Number = MONTH(Sales[Order Date])
-Year Month = FORMAT(Sales[Order Date], "YYYY-MMM")
-Quarter = "Q" & FORMAT(Sales[Order Date], "Q")
-
+- `Total Revenue = SUM(Sales[Revenue])`
+- `Total Orders = COUNT(Sales[Order ID])`
+- `Quantity Sold = SUM(Sales[Quantity])`
+- `Avg Revenue = DIVIDE([Total Revenue], [Total Orders], 0)`
+- `Month Name = FORMAT(Sales[Order Date], "MMMM")`
+- `Month Number = MONTH(Sales[Order Date])`
+- `Year Month = FORMAT(Sales[Order Date], "YYYY-MMM")`
+- `Quarter = "Q" & FORMAT(Sales[Order Date], "Q")` 
+ 
+---
 ## 🔍 Key Insights
 
 Some high-level observations from the dashboard include:
 
-Sales performance can be tracked clearly across time using monthly trend visuals
-A few products contribute significantly to total revenue
-Certain customers contribute more consistently than others
-Regional performance varies across the business
-Data cleaning significantly improved report quality and usability
-💡 Recommendations
+- Sales performance can be tracked clearly across time using monthly trend visuals
+- A few products contribute significantly to total revenue
+- Certain customers contribute more consistently than others
+- Regional performance varies across the business
+- Data cleaning significantly improved report quality and usability
+
+---
+## 💡 Recommendations
 
 Based on the dashboard structure and analysis approach, the following actions are recommended:
 
-Focus on top-performing products for stronger revenue generation
-Monitor customer purchasing patterns for retention opportunities
-Use regional performance trends for location-based strategy
-Improve data entry processes to reduce inconsistencies and missing values
-Standardize business records to improve reporting accuracy
-🖼️ Dashboard Preview
+- Focus on top-performing products for stronger revenue generation
+- Monitor customer purchasing patterns for retention opportunities
+- Use regional performance trends for location-based strategy
+- Improve data entry processes to reduce inconsistencies and missing values
+- Standardize business records to improve reporting accuracy
+
+  ---
+## 🖼️ Dashboard Preview
 📍 Overview Page
 
+<img width="603" height="333" alt="Overview page png" src="https://github.com/user-attachments/assets/666ee84b-f984-4b36-86f5-338b3fd8a829" />
+
+--- 
 📍 Product Analysis Page
 
+<img width="601" height="341" alt="Product Analysis page png" src="https://github.com/user-attachments/assets/602bc7aa-53fd-496e-b411-1ab23bf738ca" />
+
+---
 📍 Customer Analysis Page
 
-📂 Project Files
+<img width="600" height="336" alt="Customer Analysis page png" src="https://github.com/user-attachments/assets/3d7db713-c190-49ca-8faa-fdf0d2c5b253" /> 
+
+---
+## 📂 Project Files
 
 This repository contains:
 
-data/Dirty_Sales_950.csv → Raw dataset
-dashboard/Typayhub_Sales_Dashboard.pbix → Power BI dashboard file
-presentation/Typayhub_Sales_Dashboard_Presentation.pptx → Project presentation slides
-images/ → Dashboard screenshots
-README.md → Project documentation
-🛠️ Tools Used
+- data/Dirty_Sales_950.csv → Raw dataset
+- dashboard/Typayhub_Sales_Dashboard.pbix → Power BI dashboard file
+- presentation/Typayhub_Sales_Dashboard_Presentation.pptx → Project presentation slides
+- images/ → Dashboard screenshots
+- README.md → Project documentation
+
+---
+## 🛠️ Tools Used
 
 The following tools were used in this project:
 
-Microsoft Power BI
-Power Query
-DAX
-Microsoft Excel
-PowerPoint
-GitHub
-🚀 How to Use This Project
+- Microsoft Power BI
+- Power Query
+- DAX
+- Microsoft Excel
+- PowerPoint
+ -GitHub
+
+  ---
+## 🚀 How to Use This Project
 
 To explore this project:
 
-Download the dataset from the data/ folder
-Open the .pbix file in Power BI Desktop
-Explore the report pages and visuals
-Review the PowerPoint presentation for project walkthrough
-Read the README for project context and methodology
-📄 Presentation Slides
+- Download the dataset from the data/ folder
+- Open the .pbix file in Power BI Desktop
+- Explore the report pages and visuals
+- Review the PowerPoint presentation for project walkthrough
+- Read the README for project context and methodology
+
+  ---
+## 📄 Presentation Slides
 
 The full presentation slides for this project are included in this repository:
 
@@ -244,35 +262,35 @@ The full presentation slides for this project are included in this repository:
 
 This presentation contains:
 
-project overview
-dashboard explanation
-cleaning process
-key metrics
-insights
-recommendations
-report usage guide
-⚠️ Disclaimer
+- project overview
+- dashboard explanation
+- cleaning process
+- key metrics
+- insights
+- recommendations
+- report usage guide
+
+  ---
+## ⚠️ Disclaimer
 
 This project was developed as a portfolio and learning project using a simulated retail sales dataset.
 
-Important Notes:
-The dataset is not from a real company
-The business name and records are used for demonstration purposes
-Some values were intentionally dirty to simulate real-world data cleaning challenges
-This project is intended to showcase practical analytics workflow and reporting skills
+# Important Notes:
+- The dataset is not from a real company
+- The business name and records are used for demonstration purposes
+- Some values were intentionally dirty to simulate real-world data cleaning challenges
+- This project is intended to showcase practical analytics workflow and reporting skills
 🙌 Author
 
-Kelvin Etisi
+## 🔗 Connect With Me
 
-Aspiring Data Analyst passionate about:
+You can also connect with me on LinkedIn and follow my analytics journey  @https://www.linkedin.com/in/kelvin-etisi-39704a259/overlay/contact-info
 
-turning messy data into clear insights
-building clean dashboards
-learning practical business analysis
-🔗 Connect with me
-
-You can also connect with me on LinkedIn and follow my analytics journey.
-
-⭐ If you found this project interesting
+## ⭐ If you found this project interesting
 
 Feel free to star this repository and check out my other projects.
+
+
+
+
+
