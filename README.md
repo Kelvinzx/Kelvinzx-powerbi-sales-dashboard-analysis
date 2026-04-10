@@ -7,7 +7,7 @@
 
 This project showcases the development of an interactive **Sales Dashboard in Power BI** using a **dirty sales dataset** that required significant cleaning and transformation before analysis.
 
-The goal of this project was not only to build a visually appealing dashboard, but also to demonstrate the **real workflow of a data analyst** — starting from messy raw data, cleaning it in **Power Query**, modeling it properly, and turning it into useful business insights.
+The goal of this project was not only to build a visually appealing dashboard, but also to demonstrate the **real workflow of a data analyst**, starting from messy raw data, cleaning it in **Power Query**, modeling it properly, and turning it into useful business insights.
 
 This project simulates a realistic retail business reporting scenario for a gadget and electronics store.
 
